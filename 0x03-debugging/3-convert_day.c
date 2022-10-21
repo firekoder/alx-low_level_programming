@@ -5,7 +5,8 @@
  * for leap year
  * @month: month in number format
  * @day: day of month
- * Return: day of year
+ * @function: convert_day
+ * Return: day
  */
 
 int convert_day(int month, int day)
@@ -17,7 +18,7 @@ int convert_day(int month, int day)
 			break;
 		case 3:
 			day = 59 + day;
-	                break;
+			break;
 		case 4:
 			day = 90 + day;
 			break;
