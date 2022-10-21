@@ -15,3 +15,4 @@ int main(void)
 	}
 	printf("%li\n", num);
 	return (0);
+}
