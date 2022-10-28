@@ -4,7 +4,6 @@
 * main - Add one line to this code, so that prints a[2] = 98
 * Return: 0
 */
-
 int main(void)
 {
 	int n;
@@ -15,7 +14,8 @@ int main(void)
 	p = &n;
 /*
 * write your line of code here...
-*/ Remember:
+* Remember:
+*/
 *(p + 5) = 98;
 /* - you are not allowed to use a
 * - you are not allowed to modify p
